@@ -114,6 +114,31 @@
   height: 1em;
 }
 
+.maincontent {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+}
+
+.heading {
+	font-size: 6rem;
+	color: #fff;
+}
+
+.heading span {
+	color: #e2ac06;
+}
+
+.smheading {
+	font-size: 1.5em;
+	margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(13, 13, 13, 0.5);
+	color: #fff;	
+}
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
